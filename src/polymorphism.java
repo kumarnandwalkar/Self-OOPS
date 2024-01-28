@@ -8,4 +8,11 @@ public class polymorphism
 //    1. compiletime polymorphism
 //    2. runtime polymorphism
 //
+
+//    mtd overloading is an example of compiletime polymorphism and
+//    mtd overriding is an example of runtime polymorphism
+
+
+
+
 }
