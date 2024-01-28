@@ -10,7 +10,7 @@ public class polymorphism
 //
 
 //    mtd overloading is an example of compiletime polymorphism and
-//    mtd overriding is an example of runtime polymorphism
+//    mtd overriding, dynamic methode dispatch is an example of runtime polymorphism
 
 
 
