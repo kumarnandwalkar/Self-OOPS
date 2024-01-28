@@ -8,6 +8,4 @@ public class polymorphism
 //    1. compiletime polymorphism
 //    2. runtime polymorphism
 //
-//    overloading is an compiletime polymorphism and overriding is runtime polymorphism
-
 }
