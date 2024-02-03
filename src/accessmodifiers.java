@@ -15,7 +15,7 @@ public class accessmodifiers
 //    when we do not have anything before the datatype of variable (i.e is public private) it is treated as default
 
 //    protected
-//    protected can not be used outside the package but can only be used if it is beign called in a subclass outside the package,
+//    protected can not be used outside the package but can only be used if it is being called in a subclass outside the package,
 //    and it is only accessable in the same package
 
 
