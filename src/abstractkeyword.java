@@ -17,7 +17,24 @@
 // and also has its object is called as concrete class
 
 
+abstract class car // if we remove this abstract keyword and the abstract keyword of the methode then it will throw error
+{
+    public abstract void drive(); // this is an abstract mtd
+    public void show()
+    {
+        System.out.println("showing");
+    }
+}
+class wagonR extends car
+{
+    public void drive() // if we remove this mtd then this class wagonR will also be a abstract class
+    {
+        System.out.println("drive");
+    }
+}
 public class abstractkeyword
 {
+//    car obj = new car(); // we cannot create an object of abstract class type but we can use it as a reference type
+
 
 }
