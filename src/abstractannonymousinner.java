@@ -14,7 +14,8 @@ public class abstractannonymousinner
 {
     public static void main(String[] args) {
 
-        NewA obj = new NewA() {
+        NewA obj = new NewA() // here we are making an object of abstract class but also making an anonymous inner class
+        {
             public void show()
             {
                 System.out.println("form anonymous class");
