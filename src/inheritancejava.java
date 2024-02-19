@@ -1,3 +1,30 @@
+class address
+{
+    String state;
+    String city;
+    String country;
+    public address(String state,String city,String country)
+    {
+        this.state = state;
+        this.city = city;
+        this.country = country;
+    }
+}
+
+class employee
+{
+    int id;
+    String name;
+    address addressemp; // here object of another class is taken a sinput for another class
+    public employee(int id, String name, address addressemp)
+    {
+        this.id = id;
+        this.name = name;
+        this.addressemp = addressemp;
+    }
+}
+
+
 public class inheritancejava
 {
     /*
@@ -11,5 +38,23 @@ public class inheritancejava
     class c extends a and b
     this is not possible, it will cause ambiguity
     two or more classes cannot be inherited in one class but one class can be inherited in multiple classes
+
+    there are two types of inheritance
+    1. inheritacne   // normal inheritance
+    2. aggregate inheritance
+
+    aggregate inheritance means we call an object of another class inside another class therefore we get values inside values
+    this inheritance is used for code reuseability
+
+
      */
+
+    public static void main(String[] args) {
+
+        address newadd = new address("mh", "pune", "india");
+        employee newemp = new employee(199,"kumar", newadd);
+
+        System.out.println(newemp.addressemp.country);
+
+    }
 }
