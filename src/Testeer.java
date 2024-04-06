@@ -17,7 +17,7 @@ class Order {
     public double calculateTotalPrice(int unitPrice) {
         double serviceCharge = 0.05; // 5%
         this.totalPrice = unitPrice * (1 + serviceCharge);
-        return this.totalPrice
+        return this.totalPrice;
 
 
     }
